@@ -53,6 +53,7 @@ namespace ProyectoVenta.Datos
                 {
                     oconexion.Open();
                     SqlCommand cmd = new SqlCommand("sp_guardar_producto", oconexion);
+                    //Parametros de las variables
                     cmd.Parameters.AddWithValue("Codigo", obj.Codigo);
                     cmd.Parameters.AddWithValue("IdCategoria", obj.oCategoria.IdCategoria);
                     cmd.Parameters.AddWithValue("Descripcion", obj.Descripcion);
