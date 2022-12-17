@@ -6,7 +6,7 @@ namespace ProyectoVenta.Datos
 {
     public class DA_Categoria
     {
-
+        //En el siguiente codigo se realizara la lista por categorias.
         public List<Categoria> Listar()
         {
 
